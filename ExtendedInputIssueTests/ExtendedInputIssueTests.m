@@ -1,6 +1,6 @@
 //
-//  ChineseInputIssueTests.m
-//  ChineseInputIssueTests
+//  ExtendedInputIssueTests.m
+//  ExtendedInputIssueTests
 //
 //  Created by Pete Shanahan on 13/11/2013.
 //  Copyright (c) 2013 Pete Shanahan. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface ChineseInputIssueTests : XCTestCase
+@interface ExtendedInputIssueTests : XCTestCase
 
 @end
 
-@implementation ChineseInputIssueTests
+@implementation ExtendedInputIssueTests
 
 - (void)setUp
 {

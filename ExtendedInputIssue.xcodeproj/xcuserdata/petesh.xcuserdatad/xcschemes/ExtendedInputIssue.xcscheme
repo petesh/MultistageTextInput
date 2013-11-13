@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EEC75F601833E3C8009A847B"
-               BuildableName = "ChineseInputIssue.app"
+               BuildableName = "ExtendedInputIssue.app"
                BlueprintName = "ExtendedInputIssue"
                ReferencedContainer = "container:ExtendedInputIssue.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EEC75F811833E3C8009A847B"
-               BuildableName = "ChineseInputIssueTests.xctest"
+               BuildableName = "ExtendedInputIssueTests.xctest"
                BlueprintName = "ExtendedInputIssueTests"
                ReferencedContainer = "container:ExtendedInputIssue.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EEC75F601833E3C8009A847B"
-            BuildableName = "ChineseInputIssue.app"
+            BuildableName = "ExtendedInputIssue.app"
             BlueprintName = "ExtendedInputIssue"
             ReferencedContainer = "container:ExtendedInputIssue.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EEC75F601833E3C8009A847B"
-            BuildableName = "ChineseInputIssue.app"
+            BuildableName = "ExtendedInputIssue.app"
             BlueprintName = "ExtendedInputIssue"
             ReferencedContainer = "container:ExtendedInputIssue.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EEC75F601833E3C8009A847B"
-            BuildableName = "ChineseInputIssue.app"
+            BuildableName = "ExtendedInputIssue.app"
             BlueprintName = "ExtendedInputIssue"
             ReferencedContainer = "container:ExtendedInputIssue.xcodeproj">
          </BuildableReference>

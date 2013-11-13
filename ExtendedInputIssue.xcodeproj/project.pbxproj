@@ -20,7 +20,7 @@
 		EEC75F851833E3C8009A847B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC75F641833E3C8009A847B /* Foundation.framework */; };
 		EEC75F861833E3C8009A847B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC75F681833E3C8009A847B /* UIKit.framework */; };
 		EEC75F8E1833E3C8009A847B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEC75F8C1833E3C8009A847B /* InfoPlist.strings */; };
-		EEC75F901833E3C8009A847B /* ChineseInputIssueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC75F8F1833E3C8009A847B /* ChineseInputIssueTests.m */; };
+		EEC75F901833E3C8009A847B /* ExtendedInputIssueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC75F8F1833E3C8009A847B /* ExtendedInputIssueTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,7 @@
 			containerPortal = EEC75F591833E3C8009A847B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EEC75F601833E3C8009A847B;
-			remoteInfo = ChineseInputIssue;
+			remoteInfo = ExtendedInputIssue;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -52,7 +52,7 @@
 		EEC75F831833E3C8009A847B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EEC75F8B1833E3C8009A847B /* ExtendedInputIssueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExtendedInputIssueTests-Info.plist"; sourceTree = "<group>"; };
 		EEC75F8D1833E3C8009A847B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EEC75F8F1833E3C8009A847B /* ChineseInputIssueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChineseInputIssueTests.m; sourceTree = "<group>"; };
+		EEC75F8F1833E3C8009A847B /* ExtendedInputIssueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtendedInputIssueTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				EEC75F6A1833E3C8009A847B /* ExtendedInputIssue */,
-				EEC75F891833E3C8009A847B /* ExtendedInputIssue */,
+				EEC75F891833E3C8009A847B /* ExtendedInputIssueTests */,
 				EEC75F631833E3C8009A847B /* Frameworks */,
 				EEC75F621833E3C8009A847B /* Products */,
 			);
@@ -120,8 +120,7 @@
 				EEC75F7C1833E3C8009A847B /* Images.xcassets */,
 				EEC75F6B1833E3C8009A847B /* Supporting Files */,
 			);
-			name = ExtendedInputIssue;
-			path = ChineseInputIssue;
+			path = ExtendedInputIssue;
 			sourceTree = "<group>";
 		};
 		EEC75F6B1833E3C8009A847B /* Supporting Files */ = {
@@ -135,14 +134,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EEC75F891833E3C8009A847B /* ExtendedInputIssue */ = {
+		EEC75F891833E3C8009A847B /* ExtendedInputIssueTests */ = {
 			isa = PBXGroup;
 			children = (
-				EEC75F8F1833E3C8009A847B /* ChineseInputIssueTests.m */,
+				EEC75F8F1833E3C8009A847B /* ExtendedInputIssueTests.m */,
 				EEC75F8A1833E3C8009A847B /* Supporting Files */,
 			);
-			name = ExtendedInputIssue;
-			path = ChineseInputIssueTests;
+			path = ExtendedInputIssueTests;
 			sourceTree = "<group>";
 		};
 		EEC75F8A1833E3C8009A847B /* Supporting Files */ = {
@@ -170,7 +168,7 @@
 			dependencies = (
 			);
 			name = ExtendedInputIssue;
-			productName = ChineseInputIssue;
+			productName = ExtendedInputIssue;
 			productReference = EEC75F611833E3C8009A847B /* ExtendedInputIssue.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -188,7 +186,7 @@
 				EEC75F881833E3C8009A847B /* PBXTargetDependency */,
 			);
 			name = ExtendedInputIssueTests;
-			productName = ChineseInputIssueTests;
+			productName = ExtendedInputIssueTests;
 			productReference = EEC75F821833E3C8009A847B /* ExtendedInputIssueTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -262,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEC75F901833E3C8009A847B /* ChineseInputIssueTests.m in Sources */,
+				EEC75F901833E3C8009A847B /* ExtendedInputIssueTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,8 +382,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChineseInputIssue/ExtendedInputIssue-Prefix.pch";
-				INFOPLIST_FILE = "ChineseInputIssue/ExtendedInputIssue-Info.plist";
+				GCC_PREFIX_HEADER = "ExtendedInputIssue/ExtendedInputIssue-Prefix.pch";
+				INFOPLIST_FILE = "ExtendedInputIssue/ExtendedInputIssue-Info.plist";
 				PRODUCT_NAME = ExtendedInputIssue;
 				WRAPPER_EXTENSION = app;
 			};
@@ -397,8 +395,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChineseInputIssue/ExtendedInputIssue-Prefix.pch";
-				INFOPLIST_FILE = "ChineseInputIssue/ExtendedInputIssue-Info.plist";
+				GCC_PREFIX_HEADER = "ExtendedInputIssue/ExtendedInputIssue-Prefix.pch";
+				INFOPLIST_FILE = "ExtendedInputIssue/ExtendedInputIssue-Info.plist";
 				PRODUCT_NAME = ExtendedInputIssue;
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,19 +406,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChineseInputIssue.app/ChineseInputIssue";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExtendedInputIssue.app/ExtendedInputIssue";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChineseInputIssue/ChineseInputIssue-Prefix.pch";
+				GCC_PREFIX_HEADER = "ExtendedInputIssue/ExtendedInputIssue-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ChineseInputIssueTests/ExtendedInputIssueTests-Info.plist";
+				INFOPLIST_FILE = "ExtendedInputIssueTests/ExtendedInputIssueTests-Info.plist";
 				PRODUCT_NAME = ExtendedInputIssueTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -431,15 +429,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChineseInputIssue.app/ChineseInputIssue";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExtendedInputIssue.app/ExtendedInputIssue";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChineseInputIssue/ChineseInputIssue-Prefix.pch";
-				INFOPLIST_FILE = "ChineseInputIssueTests/ExtendedInputIssueTests-Info.plist";
+				GCC_PREFIX_HEADER = "ExtendedInputIssue/ExtendedInputIssue-Prefix.pch";
+				INFOPLIST_FILE = "ExtendedInputIssueTests/ExtendedInputIssueTests-Info.plist";
 				PRODUCT_NAME = ExtendedInputIssueTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
