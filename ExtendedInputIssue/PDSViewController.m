@@ -29,11 +29,9 @@
 -(void)textViewDidChange:(UITextView *)textView{
     
     int maxLength = 2;
-    NSLog(@"%d", self.tv.text.length);
-//    for (int i = 0; i < self.tv.text.length; i++) {
-//        unichar c = [self.tv.text characterAtIndex:i];
-//        NSLog(@"%d %C", c, c);
-//    }
+    NSLog(@"%lu", (unsigned long)self.tv.text.length);
+
+    // This is the important test - markedTextRange needs to be nil before making the change.
     if (textView.markedTextRange == nil && textView.text.length > maxLength) {
         textView.text = @"c";
     }
