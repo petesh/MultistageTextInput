@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface PDSViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextView *tv;
+
+- (IBAction)textViewDidChange:(UITextView *)sender;
 
 @end

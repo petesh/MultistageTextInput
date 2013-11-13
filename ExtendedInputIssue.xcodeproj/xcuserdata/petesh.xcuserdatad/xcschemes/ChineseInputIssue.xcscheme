@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EEC75F601833E3C8009A847B"
                BuildableName = "ChineseInputIssue.app"
-               BlueprintName = "ChineseInputIssue"
-               ReferencedContainer = "container:ChineseInputIssue.xcodeproj">
+               BlueprintName = "ExtendedInputIssue"
+               ReferencedContainer = "container:ExtendedInputIssue.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EEC75F811833E3C8009A847B"
                BuildableName = "ChineseInputIssueTests.xctest"
-               BlueprintName = "ChineseInputIssueTests"
-               ReferencedContainer = "container:ChineseInputIssue.xcodeproj">
+               BlueprintName = "ExtendedInputIssueTests"
+               ReferencedContainer = "container:ExtendedInputIssue.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EEC75F601833E3C8009A847B"
             BuildableName = "ChineseInputIssue.app"
-            BlueprintName = "ChineseInputIssue"
-            ReferencedContainer = "container:ChineseInputIssue.xcodeproj">
+            BlueprintName = "ExtendedInputIssue"
+            ReferencedContainer = "container:ExtendedInputIssue.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EEC75F601833E3C8009A847B"
             BuildableName = "ChineseInputIssue.app"
-            BlueprintName = "ChineseInputIssue"
-            ReferencedContainer = "container:ChineseInputIssue.xcodeproj">
+            BlueprintName = "ExtendedInputIssue"
+            ReferencedContainer = "container:ExtendedInputIssue.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EEC75F601833E3C8009A847B"
             BuildableName = "ChineseInputIssue.app"
-            BlueprintName = "ChineseInputIssue"
-            ReferencedContainer = "container:ChineseInputIssue.xcodeproj">
+            BlueprintName = "ExtendedInputIssue"
+            ReferencedContainer = "container:ExtendedInputIssue.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

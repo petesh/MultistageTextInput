@@ -26,4 +26,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)textViewDidChange:(UITextView *)textView{
+    
+    int maxLength = 2;
+    NSLog(@"%d", self.tv.text.length);
+//    for (int i = 0; i < self.tv.text.length; i++) {
+//        unichar c = [self.tv.text characterAtIndex:i];
+//        NSLog(@"%d %C", c, c);
+//    }
+    if (textView.markedTextRange == nil && textView.text.length > maxLength) {
+        textView.text = @"c";
+    }
+}
+
 @end
